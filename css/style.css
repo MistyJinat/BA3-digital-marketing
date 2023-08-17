@@ -1805,6 +1805,170 @@ input[type=text]{
 
 
 
+.section-12{
+    position: relative; 
+    height:754px ;
+    background:rgba(244, 249, 254, 1) ;
+}
+
+
+.section-12 .contact-us{
+    position: relative;
+    display: flex;
+    gap: 10rem;
+}
+
+.section-12 .contact-us img{
+    position: relative;
+    top: 120px;
+    left: 70px;
+    width:647px ;
+    height:354px;
+}
+
+
+
+
+.contact-us .contact-form h1{
+    position: relative;
+    top: 100px;
+ 
+    font-family: 'Manrope';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 438px;
+    height: 52px;
+    
+}
+
+.content{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 140px;
+    width: 598px;
+    height: 412px;
+    
+
+  
+}
+
+.input-box{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    width: 50%;
+   
+    
+}
+
+
+.input-box:nth-child(2n){
+    position: relative;
+    justify-content: left;
+
+}
+
+.input-box input{
+    position: relative;
+    height:42px ;
+    width:260px ;
+    padding: 0 10px;
+    border:1px solid rgba(195, 216, 236, 1) ;
+    background: rgba(255, 255, 255, 1);
+    outline: none;
+
+    
+}
+
+.input-box input:is(:focus,:valid){
+    box-shadow: 0 3px 6px rgba(130, 143, 159, 1);
+}
+
+.input-box label{
+    position: relative;
+    color: rgba(0, 13, 29, 1);
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+
+}  
+
+.input-box select{
+    position: relative;
+    height:42px ;
+    width:260px ;
+    padding: 0 10px;
+    border:1px solid rgba(195, 216, 236, 1) ;
+    background: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+
+.last-box label{
+    position: relative;
+    color: rgba(0, 13, 29, 1);
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+
+}  
+
+.last-box:nth-child(2n){
+    position: relative;
+    justify-content:start;
+
+}
+
+
+.last-box input{
+    
+    position: relative;
+    height:100px ;
+    width: 540px;
+    border:1px solid rgba(195, 216, 236, 1) ;
+    background: rgba(255, 255, 255, 1);
+}  
+
+
+.content .send-message{
+    position: relative;
+    background-color: rgba(0, 85, 162, 1);
+
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align:center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 593px;
+    height: 36px;
+    padding: 12px 20px 12px 20px;
+    text-transform: uppercase;
+    
+}
+
+.content .send-message i{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+
 
 
 
