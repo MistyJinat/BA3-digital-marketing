@@ -48,9 +48,7 @@ body{
     gap: 1rem;
    flex: 1;
    text-align:center;
-   left: 200px;
-
-   
+   left: 200px;   
 
 }
 
@@ -89,7 +87,7 @@ nav ul li a:hover{
         
     }
 
-    button{
+button{
         position: relative;
         border: none;
         width:140px;
@@ -98,7 +96,7 @@ nav ul li a:hover{
     }
 
 
-    button span{
+ button span{
         position: relative;
         text-transform: uppercase;
         font-family: 'Manrope';
@@ -113,12 +111,12 @@ nav ul li a:hover{
         width: 84px;
         height: 17px;
         
-    }
+}
 
-    button i{
-        color:rgba(32, 142, 240, 1);
+button i{
+    color:rgba(32, 142, 240, 1);
       
-    }
+}
 
 
 
@@ -375,7 +373,7 @@ input[type=text]{
 
 
 
-
+/*=================================================================*/
 
  .what-we-do{
     position: relative;
@@ -670,10 +668,7 @@ input[type=text]{
     list-style: none;
     border: 1px solid rgba(195, 216, 236, 1);
     
-    gap: 8px;
-    
- 
-   
+    gap: 8px;  
     
 }
 
@@ -1000,7 +995,7 @@ input[type=text]{
 
 
 
-
+/*============================================================*/
 
 .storeis-our-clients-section{
     background-color: #ffffff;
@@ -1064,8 +1059,6 @@ input[type=text]{
     
 
 }
-
-
 
 .storeis-our-clients-section .box-container{
     position: relative;
@@ -1140,8 +1133,6 @@ input[type=text]{
 }
 
 
-
-
  .card .review-details span{
     position: relative;
     margin-right:150px;
@@ -1152,18 +1143,14 @@ input[type=text]{
     font-weight: 400;
     line-height: 20px;
     color: rgba(130, 143, 159, 1);
-    top: 80px;
-   
-    
+    top: 80px;    
 }
 
  .review-details span i{
 
     color:rgba(255, 201, 71, 1) ;
     width: 16px;
-    height: 16px;
-   
-  
+    height: 16px; 
 }
 
 
@@ -1189,7 +1176,7 @@ input[type=text]{
 }
 
 
-
+/*-----------------------------------------------------------------------*/
 
 
 .why-choose-us-section{
@@ -1287,7 +1274,7 @@ input[type=text]{
     height: 363px;
 }
 
-
+/*====================================================================*/
 
 .newsletter-section{
     position: relative;
@@ -1354,6 +1341,8 @@ input[type=text]{
     margin-left: 20px;
 }
 
+
+/*====================================================================*/
 
 
 .Portfolio-section{
@@ -1513,6 +1502,9 @@ input[type=text]{
     margin-left: 90px;
 
 }
+
+
+/*=================================================*/
 
 
 .blog-section{
@@ -1720,6 +1712,9 @@ input[type=text]{
 }
 
 
+
+
+/*======================== casestudy-section=========================================*/
 .casestudy-section{
     position: relative;
     height: 720px;
@@ -1796,9 +1791,6 @@ input[type=text]{
 }
 
 
-
-
-
 .contact-us-section{
     position: relative; 
     height:700px ;
@@ -1855,9 +1847,7 @@ input[type=text]{
     position: relative;
     display:flex;
     flex-wrap: wrap;
-    width: 50%;
-   
-    
+    width: 50%;  
 }
 
 
