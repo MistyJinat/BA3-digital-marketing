@@ -6,8 +6,9 @@
 
 body{
     
-    width: 1440px;
+    width: 1600px;
     position: relative;
+
 }
 
 *{
@@ -26,15 +27,17 @@ body{
 }
 
 
-   nav{
+  nav{ 
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
-  
+    width: 1600px;
 
+  
    }
+
 
    nav .logo{
     position: relative;
@@ -46,9 +49,9 @@ body{
     position: relative;
     display: flex;
     gap: 1rem;
-   flex: 1;
-   text-align:center;
-   left: 200px;   
+    flex: 1;
+    text-align:center;
+    left: 200px;   
 
 }
 
@@ -118,15 +121,38 @@ button i{
       
 }
 
+/*------------ menu and close icon for mobile version--------*/
+
+.mobile-navbar-btn{
+    display: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.mobile-navbar-btn i{
+    width: 24px;
+    height: 24px;
+}
+
+
+.mobile-navbar-btn i[ class="fa-solid fa-xmark"]{
+    display: none;
+}
 
 
 
+
+
+/*------------------------------------------*/
 
 .main-container{
     position: relative;
-    left:140px ;
+    left:120px ;
     display: flex;
-    gap: 40px;
+    width: 1600px;
+    background-color: rgba(255, 255, 255, 1);
+    
+    
 }
 
 .main-container .left{
@@ -315,7 +341,7 @@ input[type=text]{
     height: 520px;
     top: 50px;
     position: relative;
-
+    overflow: hidden;
 }
 
 
@@ -335,6 +361,7 @@ input[type=text]{
     display: flex;
     flex-direction: row;
     gap: 15px;
+    overflow: hidden;
 
 }
 
@@ -345,11 +372,11 @@ input[type=text]{
 }
 
 
-.frame{
+.brands{
     position: relative;
     height: 100px;
     width: 1100px;
-    top: 140px;
+    top: 120px;
     display: flex;
     gap: 40px;
     text-align: center;
@@ -363,7 +390,7 @@ input[type=text]{
 
 }
 
-.frame img{
+.brands img{
     position: relative;
     margin-top: 16px;
     left: 50px;
@@ -377,9 +404,10 @@ input[type=text]{
 
  .what-we-do{
     position: relative;
-    height:940px;
+    height:900px;
     width: 1600px;
     background-color:rgba(244, 249, 254, 1);
+    top: 100px;
 }
 
 
@@ -588,6 +616,7 @@ input[type=text]{
     position: relative;
     height:900px ;
     width: 1600px;
+    top: 100px;
 }
 
 .our-approach-section .our-approach{
@@ -811,6 +840,7 @@ input[type=text]{
     position: relative;
     height:928px;
     width: 1600px;
+    top: 100px;
     background:linear-gradient(180deg,rgba(0, 85, 162, 1)60%,
     rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)40%);
 }
@@ -1002,6 +1032,7 @@ input[type=text]{
     position: relative;
     width: 1600px;
     height: 700px;
+    top: 100px;
 }
 
 .storeis-our-clients-section .headline p{
@@ -1154,7 +1185,7 @@ input[type=text]{
 }
 
 
-.storeis-our-clients-section.card .card-2{
+.storeis-our-clients-section .card .card-2{
    background:rgba(0, 85, 162, 1) ;
    background-size: cover;
    height: 260px;
@@ -2050,8 +2081,53 @@ input[type=text]{
     top: 30px;
 }
 
+/*========================   Responsive code   =================================*/
 
-@media screen and (max-width:700px) {
+
+@media (max-width:600px) {
+
+    .header{ 
+        position: relative;
+        height: 64px;
+        width: 375px;
+      
+       }
+
+    nav {
+        display: one;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(244, 249, 254, 1);
+        transform: translate(100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+       }
+
+       nav ul{
+        flex-direction: column;
+        align-items: center;
+       }
+
+
+     .mobile-navbar-btn{
+        display: block;
+        
+        border: 3ps solid black;
+        text-align: right;
+
+
+    }
+
+
     
 }
 
